@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      
+      <h2>Form</h2>
+      <hr/>
+      <form>
+        <fieldset>
+            <legend>Register</legend>
+
+                </label>First Name:</label><br>
+                <input type="text" name="fname" id="f1" placeholder="Enter First Name" />
+                <br><br>
+
+                </label>Surname:</label><br>
+                <input type="text" name="sname" id="f2" placeholder="Enter SurName" />
+                <br><br>
+
+                </label>Email:</label><br>
+                <input type="email" name="email" id="f3" placeholder="Email" />
+                <br><br>
+
+                </label>DOB:</label><br>
+                <input type="date" name="dob" id="f4" />
+                <br><br>
+
+                </label>Username:</label><br>
+                <input type="text" name="username" id="f5" />
+                <br><br>
+
+                </label>Password:</label><br>
+                <input type="password" name="pwd" id="f6" />
+                <br><br>
+
+                <!-- Radio Buttons -->
+
+                </label>Male:</label>
+                <input type="radio" name="sex"/><br><br>
+                </label>Female:</label>
+                <input type="radio" name="sex" /><br><br>
+
+                <!-- Favourite Language Form - Multi Select -->
+
+                <label for="lang">Choose your favourite Development language from the list:</label><br>
+                <input list="langs" name="lang" id="lang">
+
+                <datalist id="langs">
+                  <option value="Basic">
+                  <option value="C">
+                  <option value="GO">
+                  <option value="Python">
+                  <option value="Java">
+                </datalist>
+                <br><br>
+
+                <!-- Dropdown Combi Item - Single Select -->
+
+                <label>Subject you want to learn?</label><br>
+                <select id="subj" name="subj">
+                <option value="HTML">HTML</option>
+                <option value="PHP">PHP</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                </select>
+                <br><br>
+                
+               
+                <!-- Checkboxes -->
+                <input type="checkbox" id="hist1" name="hist1" value="qual">
+                <label for="hist1"> Qualification?</label><br>
+                <input type="checkbox" id="hist2" name="hist2" value="cert">
+                <label for="hist"> Certification</label><br>
+                <input type="checkbox" id="hist3" name="hist3" value="exp">
+                <label for="hist3"> Experience</label>
+                <br><br>
+               
+                <!-- Input Buttons -->
+                <input type="submit" name="Go" />
+
+                <input type="reset" name="Clear" />
+
+    </fieldset>
+      </form>
+        
+      <a href="login.html">Login</a>
+    </body>
+</html>
